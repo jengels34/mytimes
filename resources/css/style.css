@@ -22,7 +22,12 @@ nav {
   display: flex;
 }
 
-.border {
+#mainstory {
+  display: flex;
+  background-image: url("../images/main_story.png");
+}
+
+.column div {
   border: 1px solid black;
 }
 
