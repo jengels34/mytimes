@@ -1,11 +1,13 @@
-.header {
+/*--header area */
+
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 
-.navigation a {
+nav {
   display: inline-flex;
 }
 
@@ -14,13 +16,22 @@
   color: MediumAquamarine;
 }
 
-.container {
+/*--main body of the doc */
+
+#main {
   display: flex;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.large {
+  border: 2px solid black;
 }
 
 .column.large {
   width: 630px;
-  border: 2px solid black;
 }
 
 .column.medium {
