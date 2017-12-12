@@ -18,17 +18,48 @@ nav {
 
 /*--main body of the doc */
 
-#main {
+
+#main, .img {
   display: flex;
 }
 
 #mainstory {
-  display: flex;
   background-image: url("../images/main_story.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#cats {
+  background-image: url("../images/cat_ceo.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#earth {
+  background-image: url("../images/fall_season.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#hipster {
+  background-image: url("../images/hipster.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .column div {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .large {
@@ -37,12 +68,15 @@ nav {
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
   width: 300px;
+  display: flex;
 }
 
 .column.small {
   width: 240px;
+  display: flex;
 }
