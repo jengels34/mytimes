@@ -35,6 +35,74 @@ a {
   color: black;
 }
 
+.content {
+  display: flex;
+  padding-top: 110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.image {
+  color: white;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.lead-story .image {
+  background-image: url("../images/main_story.png");
+  width: 630px;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.earth .image {
+  background-image: url("../images/fall_season.png");
+  font-size: 30px;
+}
+
+.hipster .image {
+  background-image: url("../images/hipster.png");
+  font-size: 30px;
+}
+
+.cat .image {
+  background-image: url("../images/cat_ceo.png");
+  font-size: 30px;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 
 
 /*--header area */
@@ -99,23 +167,4 @@ nav {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-.large {
-  border: 2px solid black;
-}
-
-.column.large {
-  width: 630px;
-  display: flex;
-}
-
-.column.medium {
-  width: 300px;
-  display: flex;
-}
-
-.column.small {
-  width: 240px;
-  display: flex;
 }
