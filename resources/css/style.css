@@ -7,7 +7,7 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   width: 100%;
-  height: 80px;
+  height: 90px;
   z-index: 1;
   background-color: white;
 }
@@ -116,68 +116,58 @@ div {
   width: 300px;
 }
 
+.cookie {
+  height: 240px;
+}
 
+.news-bites h3 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 
-/*--header area */
-/*
-header {
-  display: flex;
+span.bite {
+  display: block;
+  background-color: WhiteSmoke;
   font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 10px;
 }
 
-nav {
-  display: inline-flex;
-}
-
-#logo {
+footer {
   display: flex;
-  color: MediumAquamarine;
+  width: 100%;
+  height: 250px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana;
+  font-size: 12px;
 }
 
-/*--main body of the doc */
-
-/*
-#main, .img {
-  display: flex;
-}
-
-#mainstory {
-  background-image: url("../images/main_story.png");
+footer .title {
   font-family: Georgia;
+  font-size: 16px;
   font-weight: bold;
-  font-size: 40px;
   color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
-#cats {
-  background-image: url("../images/cat_ceo.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+footer nav {
+  display: inline-block;
+  padding: 20px;
+
 }
 
-#earth {
-  background-image: url("../images/fall_season.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-#hipster {
-  background-image: url("../images/hipster.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-.column div {
-  border: 1px solid black;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
